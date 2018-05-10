@@ -2,12 +2,13 @@
   <div id="app">
     <img src="./assets/logo.png">
     <router-view/>
+    <Hello></Hello>
   </div>
 </template>
 
 <script>
 // 导入组件
-import Hello from './components/Hello'
+import Hello from './components/Hello.vue'
 
 export default {
   name: 'App',
